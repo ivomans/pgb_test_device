@@ -1,0 +1,152 @@
+BODY, TABLE, TD, TH, DIV, INPUT {
+        font-size: 16px;
+        font-weight: 500;
+        color: #000000;
+        }
+BODY {  background-color: #FFFFFF;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0 }
+BODY.hdr { background-color: #FFD0D0; }
+
+SMALL {
+	font-size: 12px;
+}
+
+H1 {
+	font-size: 20px;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	background-color: #0080C0;
+	color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+	margin-top: 16px; /* or however many pixels distance you want */
+}
+
+P    { margin-top: 0;
+       margin-bottom: 0.8ex }
+P.statusok {color: #66CC66;}
+P.statuserror {
+	color: #000000;
+	background-color:#FFD0D0;
+	font-weight: bold;
+}
+
+A:link {text-decoration: none;
+	color: #ff5668;
+}
+A:visited {
+	text-decoration: none;
+	color: #ff5668;
+}
+A:active  {text-decoration: none;
+	color: #0000ff;
+}
+A:hover {text-decoration: none;
+	color: #ff0000;
+}
+
+TT	{ color: #ff5668; }
+
+TABLE { border-spacing: 3px; }
+
+input {
+	background-color: #E7F1FE;
+	color: #000000;
+	border-style: solid;
+	border-width: 1;
+	font-size: 20px;
+}
+
+input.int {
+	text-align: right;
+}
+
+input.button {
+      margin:0px;
+      padding:0px;
+}
+
+input.disabled {
+	color:#770000;
+	background-color: #EEEEEE;
+	font-style: italic;
+}
+
+div.autocomplete {
+      position:absolute;
+      width:250px;
+      background-color:white;
+      border:1px solid #888;
+      margin:0px;
+      padding:0px;
+}
+div.autocomplete ul {
+      list-style-type: none;
+      margin:0px;
+      padding:0px;
+}
+div.autocomplete ul li.selected { background-color: #ffb;}
+div.autocomplete ul li {
+      list-style-type: none;
+      display:block;
+      margin:0;
+      padding:2px;
+      height:16px;
+	cursor: pointer;
+}
+
+img.imgbtn {
+	background-color: #E7F1FE;
+	color: #000000;
+	border-style: solid;
+	border-width: 1;
+	font-size: 20px;
+	padding: 3px;
+	vertical-align:middle;
+}
+
+A.btn:link {text-decoration: none;
+	background-color: #E7F1FE;
+	color: #000000;
+	border-style: solid;
+	border-width: 1;
+	font-size: 20px;
+	padding: 3px;
+}
+
+A.btn:visited {text-decoration: none;
+	background-color: #E7F1FE;
+	color: #000000;
+	border-style: solid;
+	border-width: 1;
+	font-size: 20px;
+	padding: 3px;
+}
+
+A.btn:active {text-decoration: none;
+	background-color: #ffff88;
+	color: #000000;
+	border-style: solid;
+	border-width: 1;
+	font-size: 20px;
+	padding: 3px;
+}
+
+A.btn:hover {text-decoration: none;
+	background-color: #ffff88;
+	color: #000000;
+	border-style: solid;
+	border-width: 1;
+	font-size: 20px;
+	padding: 3px;
+}
+

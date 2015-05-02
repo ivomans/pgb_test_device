@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.mans-manik.pgb_test_device"
+        version   = "0.1">
+
+    <name>Test device</name>
+
+    <description>
+        Test device
+    </description>
+
+    <author href="http://lisaas.com" email="info@lisaas.com">
+        Lipronics
+    </author>
+
+    <preference name="phonegap-version" value="3.7.0" />
+    <preference name="permissions" value="none"/>
+
+    <feature name="http://api.phonegap.com/1.0/camera"/> 
+
+    <gap:plugin name="com.phonegap.plugins.barcodescanner" version="2.2.0" />
+    <!-- <gap:plugin name="org.apache.cordova.device" version="0.2.3" />   -->  <!-- from http://docs.phonegap.com/en/3.3.0/cordova_device_device.md.html#device.uuid -->
+    <gap:plugin name="it.adacto.cordova.device" version="0.1" />  <!-- from https://build.phonegap.com/plugins/919  -->
+
+    <icon src="res/icon/android/drawable-ldpi/ic_launcher.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="res/icon/android/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="res/icon/android/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="res/icon/android/drawable-xhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <icon src="res/icon/android/drawable-xxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxhdpi" />
+
+    <icon src="res/icon/ios/Icon-72.png" gap:platform="ios" gap:qualifier=""/>
+
+    <icon src="res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57" />
+    <icon src="res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="res/icon/ios/Icon@2x.png" gap:platform="ios" width="114" height="114" />
+    <icon src="res/icon/ios/Icon-72@2x.png" gap:platform="ios" width="144" height="144" />
+
+</widget>
