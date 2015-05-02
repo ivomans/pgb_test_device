@@ -16,6 +16,9 @@
                             'Device Platform: ' + device.platform + '<br />' +
                             'Device UUID: '     + device.uuid     + '<br />' +
                             'Device Version: '  + device.version  + '<br />';
+        $('#btnAbout').click(function() {
+          window.location="about.html"
+        });
       } catch(err) {
         alert(err.message);
       }                      
@@ -27,5 +30,6 @@
     <p id="deviceProperties">Loading device properties...</p>
     <hr>
     <a href='about.html'>Go to about page</a>
+      <button id='btnAbout'>About</button>
   </body>
 </html>
