@@ -4,9 +4,6 @@
     <title>Device Properties Example</title>
 
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-    <script src="lib/jquery-1.11.2.min.js"></script>
-    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
-
     <script type="text/javascript" charset="utf-8">
 
     document.addEventListener("deviceready", onDeviceReady, false);
@@ -19,9 +16,6 @@
                             'Device Platform: ' + device.platform + '<br />' +
                             'Device UUID: '     + device.uuid     + '<br />' +
                             'Device Version: '  + device.version  + '<br />';
-        $('#btnAbout').click(function() {
-          window.location="about.html"
-        });
       } catch(err) {
         alert(err.message);
       }                      
@@ -31,8 +25,5 @@
   </head>
   <body>
     <p id="deviceProperties">Loading device properties...</p>
-    <hr>
-    <a href='about.html'>Go to about page</a>
-      <button id='btnAbout'>About</button>
   </body>
 </html>
