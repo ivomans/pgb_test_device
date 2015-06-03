@@ -22,7 +22,7 @@
 
     <gap:plugin name="com.phonegap.plugins.barcodescanner" version="2.2.0" />
     <!-- <gap:plugin name="org.apache.cordova.device" version="0.2.3" />   -->  <!-- from http://docs.phonegap.com/en/3.3.0/cordova_device_device.md.html#device.uuid -->
-    <gap:plugin name="it.adacto.cordova.device" version="0.1" />  <!-- from https://build.phonegap.com/plugins/919  -->
+    <!-- <gap:plugin name="it.adacto.cordova.device" version="0.1" />  <!-- from https://build.phonegap.com/plugins/919  -->
 
     <icon src="res/icon/android/drawable-ldpi/ic_launcher.png" gap:platform="android" gap:qualifier="ldpi" />
     <icon src="res/icon/android/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
